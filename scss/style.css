@@ -1,0 +1,86 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  color: rgba(86, 143, 180, 0.925);
+}
+
+h1 span {
+  color: #cc311d;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  color: #cc311d;
+}
+
+h2 span {
+  color: rgba(86, 143, 180, 0.925);
+}
+
+.red-card {
+  -webkit-box-shadow: 1px 1px 6px silver;
+          box-shadow: 1px 1px 6px silver;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 320px;
+  background-color: #cc311d;
+  color: white;
+  margin: 10px;
+}
+
+.yellow-card {
+  -webkit-box-shadow: 1px 1px 6px silver;
+          box-shadow: 1px 1px 6px silver;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 320px;
+  background-color: #ccc91d;
+  color: white;
+  margin: 10px;
+}
+
+.blue-card {
+  -webkit-box-shadow: 1px 1px 6px silver;
+          box-shadow: 1px 1px 6px silver;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 320px;
+  background-color: rgba(86, 143, 180, 0.925);
+  color: white;
+  margin: 10px;
+}
+
+.green-card {
+  -webkit-box-shadow: 1px 1px 6px silver;
+          box-shadow: 1px 1px 6px silver;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 320px;
+  background-color: #72cc1d;
+  color: white;
+  margin: 10px;
+}
+
+.purple-card {
+  -webkit-box-shadow: 1px 1px 6px silver;
+          box-shadow: 1px 1px 6px silver;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 320px;
+  background-color: #7d1dcc;
+  color: white;
+  margin: 10px;
+}
+/*# sourceMappingURL=style.css.map */
