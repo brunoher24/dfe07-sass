@@ -5,18 +5,6 @@ $custom-green: rgb(114, 204, 29);
 $custom-purple: rgb(125, 29, 204);
 $helvet: Helvetica, sans-serif;
 
-
-@mixin card($bgc) {
-    box-shadow: 1px 1px 6px silver;
-    padding: 10px;
-    border-radius: 10px;
-    width: 300px;
-    height: 320px;
-    background-color: $bgc;
-    color: white;
-    margin: 10px;
-}
-
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -38,50 +26,76 @@ h2 {
     }
 }
 
+
+.card {
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 320px;
+    color: white;
+    margin: 10px;
+}
+
+.bgc-blue {
+    background-color: $custom-blue;
+}
+
+.bgc-red {
+    background-color: $custom-red;
+}
+
+.bgc-yellow {
+    background-color: $custom-yellow;
+}
+
+.bgc-green {
+    background-color: $custom-green;
+}
+
+.bgc-purple {
+    background-color: $custom-purple;
+}
+
+.shadow-10 {
+    box-shadow: 1px 1px 10px silver;
+}
+
+.shadow-20 {
+    box-shadow: 1px 1px 20px silver;
+}
+
+.shadow-6 {
+    box-shadow: 1px 1px 6px silver;
+}
+
+
+@mixin card($bgc, $shadowWidth) {
+    box-shadow: 1px 1px $shadowWidth silver;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 320px;
+    background-color: $bgc;
+    color: white;
+    margin: 10px;
+}
+
 .red-card {
-   @include card($custom-red);
+   @include card($custom-red, 2px);
 }
 
 .yellow-card {
-    box-shadow: 1px 1px 6px silver;
-    padding: 10px;
-    border-radius: 10px;
-    width: 300px;
-    height: 320px;
-    background-color: $custom-yellow;
-    color: white;
-    margin: 10px;
+    @include card($custom-yellow, 6px);
 }
 
 .blue-card {
-    box-shadow: 1px 1px 6px silver;
-    padding: 10px;
-    border-radius: 10px;
-    width: 300px;
-    height: 320px;
-    background-color: $custom-blue;
-    color: white;
-    margin: 10px;
+    @include card($custom-blue, 10px);
 }
 
 .green-card {
-    box-shadow: 1px 1px 6px silver;
-    padding: 10px;
-    border-radius: 10px;
-    width: 300px;
-    height: 320px;
-    background-color: $custom-green;
-    color: white;
-    margin: 10px;
+    @include card($custom-green, 3px);
 }
 
 .purple-card {
-    box-shadow: 1px 1px 6px silver;
-    padding: 10px;
-    border-radius: 10px;
-    width: 300px;
-    height: 320px;
-    background-color: $custom-purple;
-    color: white;
-    margin: 10px;
+    @include card($custom-purple, 5px);
 }

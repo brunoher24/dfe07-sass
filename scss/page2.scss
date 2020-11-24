@@ -1,0 +1,20 @@
+@import './_base.scss';
+
+$base-color: red;
+
+body {
+    background-color: black;
+}
+
+li {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+@for $i from 1 through 10 {
+    li:nth-child(#{$i}) {
+      background-color: lighten($base-color, $i * 5%);
+    }
+  }

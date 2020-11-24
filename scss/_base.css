@@ -24,9 +24,53 @@ h2 span {
   color: rgba(86, 143, 180, 0.925);
 }
 
-.red-card {
+.card {
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 320px;
+  color: white;
+  margin: 10px;
+}
+
+.bgc-blue {
+  background-color: rgba(86, 143, 180, 0.925);
+}
+
+.bgc-red {
+  background-color: #cc311d;
+}
+
+.bgc-yellow {
+  background-color: #ccc91d;
+}
+
+.bgc-green {
+  background-color: #72cc1d;
+}
+
+.bgc-purple {
+  background-color: #7d1dcc;
+}
+
+.shadow-10 {
+  -webkit-box-shadow: 1px 1px 10px silver;
+          box-shadow: 1px 1px 10px silver;
+}
+
+.shadow-20 {
+  -webkit-box-shadow: 1px 1px 20px silver;
+          box-shadow: 1px 1px 20px silver;
+}
+
+.shadow-6 {
   -webkit-box-shadow: 1px 1px 6px silver;
           box-shadow: 1px 1px 6px silver;
+}
+
+.red-card {
+  -webkit-box-shadow: 1px 1px 2px silver;
+          box-shadow: 1px 1px 2px silver;
   padding: 10px;
   border-radius: 10px;
   width: 300px;
@@ -49,8 +93,8 @@ h2 span {
 }
 
 .blue-card {
-  -webkit-box-shadow: 1px 1px 6px silver;
-          box-shadow: 1px 1px 6px silver;
+  -webkit-box-shadow: 1px 1px 10px silver;
+          box-shadow: 1px 1px 10px silver;
   padding: 10px;
   border-radius: 10px;
   width: 300px;
@@ -61,8 +105,8 @@ h2 span {
 }
 
 .green-card {
-  -webkit-box-shadow: 1px 1px 6px silver;
-          box-shadow: 1px 1px 6px silver;
+  -webkit-box-shadow: 1px 1px 3px silver;
+          box-shadow: 1px 1px 3px silver;
   padding: 10px;
   border-radius: 10px;
   width: 300px;
@@ -73,8 +117,8 @@ h2 span {
 }
 
 .purple-card {
-  -webkit-box-shadow: 1px 1px 6px silver;
-          box-shadow: 1px 1px 6px silver;
+  -webkit-box-shadow: 1px 1px 5px silver;
+          box-shadow: 1px 1px 5px silver;
   padding: 10px;
   border-radius: 10px;
   width: 300px;
